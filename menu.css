@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:beige;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.heading {
+    background-color: rgb(27, 27, 29);
+    color: beige;
+    margin-bottom:30px ;
+    padding: 30px;
+    grid-column: 1/-1;
+    text-align: justify;
+}
+.heading>h1{
+    letter-spacing: 3px;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom:10px;
+}
+.heading>h3{
+    font-weight: 100;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+.menu{
+    padding: 0 10px 30px 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px 20px;
+
+}
+
+
+/* CART */
+.cart{
+    position: fixed;
+    top:0;
+    right: 0;
+    right: -100%; 
+    width: 360px;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding : 20px;
+    background-color: black;
+    box-shadow: 0 0 15px rgb(54, 50, 50);
+    border : 1px solid var(black);
+    transition: 1.5s;
+    z-index:1;
+
+}
+.cart.active{
+    right: 0;
+    transition: .5s;
+}
+.cart-title{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+.cart-box{
+    display:grid;
+    grid-template-columns: 32% 50% 18%;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.cart-img{
+    width:100px;
+    height: 100px;
+    object-fit: contain;
+    padding:10px;
+}
+.detail-box{
+    display: grid;
+    row-gap: .5rem;
+}
+
+.cart-product-title{
+    font-size: 1rem;
+    text-transform: uppercase;
+    
+}
+
+.cart-price{
+    font-weight: 500;
+}
+.cart-quantity{
+    border: 1px solid var(black);
+    outline-color: black;
+    width: 2.4rem;
+    text-align: center;
+    font-size: 1rem;
+}
+.cart-remove{
+    font-size: 24px;
+    color: var(black);
+    cursor: pointer;
+}
+.total{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+    border-top: 1px solid var(black);
+}
+.total-title{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.total-price{
+    margin-left: .5rem;
+}
+.btn-buy{
+    display: flex;
+    margin: 1.5rem auto 0 auto;
+    padding: 12px 20px;
+    border:none;
+    background-color: var(black);
+    color: var(black);
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.btn-buy:hover{
+    background-color: blue;
+}
+
+#cart-close{
+    position:absolute;
+    top: 1rem;
+    right: .8rem;
+    font-size: 2rem;
+    color: var(black);
+    cursor: pointer;
+}
+  
+.food-items{
+    display:grid;
+    position:relative;
+    grid-template-rows:auto 1fr;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgb(54, 50, 50);
+    margin: 0 20px;
+}
+.food-items img{
+    position : relative;
+    width: 100%;
+    height: 33vh; 
+    border-radius: 15px 15px 0 0;
+}
+h1{
+     grid-column: 1/-1;
+    text-align: center;
+}
+.details{
+    padding: 20px 10px;
+    display: grid;
+    grid-template-rows: auto 1fr 50px;
+    grid-row-gap: 15px;
+}
+.details-sub{
+    display:grid;
+    grid-template-columns: auto auto;
+}
+.details-sub>h5{
+    font-weight: 800;
+    font-size: 20px;
+}
+.price{
+    text-align: right;
+}
+.details>p{
+    color: rgb(55, 51, 51);
+    font-size:15px;
+    font-weight: 500;
+    line-height: 25px;
+    align-self: stretch;
+}
+.details>button{
+    background-color: black;
+    color: beige;
+    border-radius:10px;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    width: 180px;
+}
+.details>button:hover{
+    background-color: rgb(126, 126, 114);
+    color:black;
+}

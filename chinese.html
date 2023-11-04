@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Menu</title>
+    
+    <link rel="stylesheet" href="menu.css">
+     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" 
+          integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" 
+          crossorigin="anonymous" />
+    
+</head>
+<body>
+    <div class="menu">
+        <div class="heading">
+            <h1> CMRIT CANTEEN</h1>
+            <h3 style="text-align:center;"> &mdash; CHINESE &mdash; </h3>
+             <!-- <a href="#" style="text-decoration: none; color: inherit; position: relative; float: right;">  --><i style="float: right;" class="fas fa-shopping-cart" id="cart-icon">View Orders</i>
+            
+
+             <!-- CART -->
+             <div class="cart">
+                <h2 class = "cart-title">Your Cart</h2><hr>
+
+                <!-- CONTENT -->
+                <div class="cart-content">
+                    <!-- TESTBOX -->
+                    <!-- <div class = "cart-box">
+                        <img class = "cart-img" src="img/Samosa.jpg">
+                        <div class="detail-box">
+                            <div class = "cart-product-title">Samosa</div>
+                            <div class ="cart-price">Rs 10</div>
+                            <input type="number" value="1" class = "cart-quantity">
+                        </div>
+                         
+                        <i style='font-size:24px' class='fas fa-cart-arrow-down cart-remove'></i>
+                    </div> -->
+                </div><hr>
+
+                <!-- Total -->
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">Rs 0</div>
+                </div>
+                <!-- Buy button -->
+                <button type="button" class="btn-buy">BUY</button>
+                <!-- cart-close -->
+                <i style="font-size:24px" class="fa" id="cart-close">&#xf00d;</i>
+             </div>
+             
+        </div>
+        
+        
+        <div class="food-items">
+            <img class="food-items-image" src="web_dev/imgs/veg fried rice.jpg" >
+            <div class="details">
+                <div class="details-sub">
+                    <h5 class="details-sub-title">Veg-fried rice</h5>
+                    <h5 class="price"> 40/- Rs</h5>
+                </div>
+                <p>Lets have the special veg-fried rice for today.</p>
+                <button class="details-sub-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="food-items">
+            <img class = "food-items-image" src="web_dev/imgs/veg noodles.jpg">
+            <div class="details">
+                <div class="details-sub">
+                    <h5 class="details-sub-title">Veg Noodles</h5>
+                    <h5 class="price"> 50/- Rs</h5>
+                </div>
+                <p>How can we miss Noodles in Chinese cousine.</p>
+                <button class="details-sub-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+        
+        <div class="food-items">
+            <img class = "food-items-image"  src="web_dev/imgs/gobi.jpg">
+            <div class="details">
+                <div class="details-sub">
+                    <h5 class="details-sub-title">Gobi-Manchurian</h5>
+                    <h5 class="price"> 60/- Rs</h5>
+                </div>
+                <p>This is everyones favourite.</p>
+                <button class="btn btn-primary details-sub-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+        
+        <div class="food-items">
+           <img  class="food-items-image" src="web_dev/imgs/gobi fried rice.jpg">
+            <div class="details">
+                <div class="details-sub">
+                    <h5 class="details-sub-title">Gobi-Fried Rice</h5>
+                    <h5 class="price"> 50/- Rs</h5>
+                </div>
+                <p>More speciality with Gobi in fried rice..))</p>
+                <button class="btn btn-primary details-sub-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+        
+        <div class="food-items">
+            <img class = "food-items-image" src="web_dev/imgs/gobi fried noodles.jpg">
+            <div class="details">
+                <div class="details-sub">
+                    <h5 class="details-sub-title">Gobi-Fried Noodles</h5>
+                    <h5 class="price"> 60/- Rs</h5>
+                </div>
+                <p>Noodles is special with Gobi as speciality.</p>
+                <button class="btn btn-primary details-sub-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+        
+        <div class="food-items">
+            <img src="web_dev/imgs/mushroom fried rice.jpg" class = "food-items-image" >
+            <div class="details">
+                <div class="details-sub">
+                    <h5 class="details-sub-title">Mushroom Fried rice</h5>
+                    <h5 class="price"> 60/- Rs</h5>
+                </div>
+                <p>Haven't tried with Mushroom as speciality.</p>
+                <button class="btn btn-primary details-sub-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+        
+        <div class="food-items">
+            <img class = "food-items-image" src="web_dev/imgs/mushroom noodles.jpg">
+            <div class="details">
+                <div class="details-sub">
+                    <h5 class="details-sub-title">Mushroom-Noodles</h5>
+                    <h5 class="price"> 60/- Rs</h5>
+                </div>
+                <p>Its Time For some Mushroom Noodles too.</p>
+                <button class="btn btn-primary details-sub-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+        
+        <div class="food-items">
+            <img class = "food-items-image" src="web_dev/imgs/mushroom manchurian.jpg">
+            <div class="details">
+                <div class="details-sub">
+                    <h5 class="details-sub-title">Mushroom-Manchurian</h5>
+                    <h5 class="price"> 60/- Rs</h5>
+                </div>
+                <p>Aeek Mushroom-Manchurian Ricee aee</p>
+                <button class="btn btn-primary details-sub-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+        
+        <div class="food-items">
+            <img class = "food-items-image" src="web_dev/imgs/paneer fried rice.jpg" alt="img-Parotta" >
+            <div class="details">
+                <div class="details-sub">
+                    <h5 class="details-sub-title">Paneer-fried Rice</h5>
+                    <h5 class="price"> 70/- Rs</h5>
+                </div>
+                <p>Bhaijaan Ke liye ek plate Paneer-fried Rice.</p>
+                <button class="btn btn-primary details-sub-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="food-items">
+            <img class = "food-items-image" src="web_dev/imgs/paneer fried noodles.jpg" alt="img-Parotta" >
+            <div class="details">
+                <div class="details-sub">
+                    <h5 class="details-sub-title">Paneer Fried Noodles</h5>
+                    <h5 class="price"> 70/- Rs</h5>
+                </div>
+                <p>Bhaijaan Ke liye ek plate Paneer-fried Noodles.</p>
+                <button class="btn btn-primary details-sub-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="food-items">
+            <img class = "food-items-image" src="web_dev/imgs/paneer manchurian.jpg" alt="img-Parotta" >
+            <div class="details">
+                <div class="details-sub">
+                    <h5 class="details-sub-title">Paneer-Manchurian</h5>
+                    <h5 class="price"> 70/- Rs</h5>
+                </div>
+                <p>Bhaijaan Ke liye ek plate Paneer-Manchurian.</p>
+                <button class="btn btn-primary details-sub-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+        <script src="learn_chinese.js" defer></script>
+    </div>
+    
+</body>
+
+</html>

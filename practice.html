@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content="width=device-width,initial-scale=1.0">
+    <title>Canteen e-serive| myCanteen.com</title>
+
+    <link rel="stylesheet" href="color.css"> 
+    <!-- <link rel="stylesheet" href="logStyle.css"> -->
+    <script src="learn.js"></script> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" 
+          integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" 
+          crossorigin="anonymous" />
+
+    <link rel="stylesheet" media="screen and (max-width: 1170px)"href="phone.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="navbar">
+        <div id = "logo">
+          <img src = "web_dev/img\cmr.jpeg" alt="myCanteen.com" >
+        </div>
+
+        <ul>
+            <li class="item"><a href="#home" >Home</a></li>
+            <li class="item"><a href="#services-container" >Services</a></li>
+            <li class="item"><a href="#client-section">About us</a></li>
+            <li class="item"><a href="#contact" >Contact us</a></li>
+            <li class="item"><a>Terms and Conditions</a></li>
+            <button class = "btn2"><a href="signlog.html" style="text-decoration: none; color: inherit;" > Login </a></button>
+            <button class = "btn2"><a href="signlog.html" style="text-decoration: none; color: inherit;"> Sign up </a></button>
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="h-primary">Welcome to our e-Canteen</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quaerat sint in tempore velit quod sed blanditiis cupiditate molestiae. </p>
+        <p>Reiciendis quaerat sint in tempore velit quod sed blanditiis cupiditate molestiae. </p>
+        <button class="btn">ORDER NOW</button>
+
+    </section>
+<hr>
+<section id="services-container">
+    <h1 class="h-primary center">Our Services</h1>
+    <div id="services">
+        <div class="box">
+            <img src="web_dev/img/serv.jpg" alt="Services">
+            <h2 class="h-secondary center"><a href="menu.html" style="text-decoration: none; color: inherit;">Food Ordering</a></h2>
+            <p class="center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, aliquam facere consequuntur, sequi repellendus tenetur molestiae eligendi rerum, distinctio illo explicabo vel id quasi quis! Dolorem sunt neque repellat tempore!</p>
+        </div>
+        <div class="box">
+            <img src="web_dev/img/pay.jpg" alt="Services">
+            <h2 class="h-secondary center">Payment</h2>
+            <p class="center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, aliquam facere consequuntur, sequi repellendus tenetur molestiae eligendi rerum, distinctio illo explicabo vel id quasi quis! Dolorem sunt neque repellat tempore!</p>
+        </div>
+        <div class="box">
+            <img src="web_dev/img/order.png" alt="Services">
+            <h2 class="h-secondary center">Your Orders</h2>
+            <p class="center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, aliquam facere consequuntur, sequi repellendus tenetur molestiae eligendi rerum, distinctio illo explicabo vel id quasi quis! Dolorem sunt neque repellat tempore!</p>
+        </div>
+    </div>
+</section>
+<hr>
+<section id="client-section">
+    <h1 class="h-primary center">About us</h1>
+    <div id="client">
+        <div class="client-item">
+            <a href="https://www.cmrit.ac.in/"><img src="web_dev/img/cmr.jpeg"></a> 
+        </div>
+        <div class="client-item">
+            <a href="https://www.youtube.com/channel/UCpi96paEf16WS-Xf0_xyL9Q"><img src="web_dev/img/utube.png"></a> 
+        </div>
+        <div class="client-item">
+            <a href="https://www.instagram.com/cmrit.bangalore/"><img src="web_dev/img/insta.png"></a>
+        </div>
+    </div>
+</section>
+<section id="contact">
+    <h1 class="h-primary center">Contact Us</h1>
+    <div id="contact-box">
+        <form action="">
+            <div class="form-group">
+                <label for="name" >Name: </label>
+                <input type="text" name="name" id="name" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <label for="name" >Email: </label>
+                <input type="text" name="Email" id="Email" placeholder="Enter your Email">
+            </div>
+            <div class="form-group">
+                <label for="name" >Phone number: </label>
+                <input type="text" name="Phone" id="Phone" placeholder="Enter your Phone">
+            </div>
+            <div class="form-group">
+                <label for="name" >Message: </label>
+                <textarea name="message" id="message" cols="30" rows="10" ></textarea>
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+        
+    </div>
+    
+</section>
+
+<footer>
+    
+        <section class="container-min">
+        <!-- Upper Footer -->
+            <main class="grid grid-3">
+                <!-- About College -->
+                <article class="about">
+                    <h1 class="sm">about</h1>
+                    <p>CMR Institute of Technology is a private engineering college located in Bengaluru, India. CMRIT is a technical and management institution affiliated to Visvesvaraya Technological University and approved by All India Council for Technical Education, New Delhi. CMRIT is recognized by Government of Karnataka.</p>
+                    <ul class="py-1">
+                        <li><i class="fab fa-youtube"></i><a href="https://www.youtube.com/channel/UCpi96paEf16WS-Xf0_xyL9Q" style= "text-decoration: none;" target="_blank"> Youtube</a></li>
+                        <li><i class="fab fa-instagram"></i><a href="https://www.instagram.com/cmrit.bangalore/" style= "text-decoration: none;" target="_blank">Instagram</a></li>
+                    </ul>
+                </article>
+                <!-- Navigation Links -->
+                <article class="quick-links">
+                    <ul>
+                        <h1 class="sm">Quick Links</h1>
+                        <li><a href="client-side.html" style= "text-decoration: none;" >Home</a></li>
+                        <li><a href="user-orders.html" style= "text-decoration: none;">Your Orders</a></li>
+                        <li><a href="https://github.com/Bhanu0301/web_dev" style= "text-decoration: none; " target="_blank">Git Repository</a></li>
+                        <li><a href="www.cmrit.ac.in" target="_blank" style= "text-decoration: none;">CMR Institute of Technology</a></li>
+                    </ul>
+                </article>
+                <!-- Contact Details -->
+                <article class="contact">
+                    <ul>
+                        <h1 class="sm">Contact Information</h1>
+                        <li> <i class="fas fa-phone-alt"></i> <p>+91-9090909090</p></li>
+                        <li> <i class="fas fa-envelope"></i> <p>canteen@cmrit.ac.in</p></li>
+                        <li> <i class="fas fa-map-marker-alt"></i> <p>ACES Layout,bangalore-560037</p></li>
+                        <li> <i class="fas fa-globe-asia"></i> <p>For Professional Courses, Visit: www.cmrit.ac.in</p></li>
+                    </ul>
+                </article>
+            </main>
+            <!-- Deep Devs Info -->
+            <main class="deep-devs flex">
+                <div> Copywrite &copy; www.myCanteen.com All rights reserved!</div>
+            </main>
+        </section>
+
+</footer>
+</body>
+</html>
